@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div {
+    width: 150px;
+    height: 200px;
+    border: 3px solid rgb(245,222,179);
+    margin: 5px;
+    transition: 0.3s;
+}
+
+h4 {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 100px;
+}
+
+.pirmas {
+    background-color: #9932CC;
+}
+
+.antras {
+    background-color: #FFC0CB;
+
+}
+
+.trecias {
+    background-color: #7FFFD4;
+}
+
+.ketvirtas {
+    background-color: #FFA07A;
+}
+
+.penktas {
+    background-color: #DC143C;
+}
+
+.sestas {
+    background-color: #7FFF00;
+}
+
+.septintas {
+    background-color: #9ACD32;
+}
+
+.astuntas {
+    background-color: #B0E0E6;
+}
+
+.devintas {
+    background-color:#DEB887;
+}
+
+.desimtas {
+    background-color: #20B2AA;
+}
+
+.vienuoliktas {
+    background-color: #DC143C;
+}
+
+.dvyliktas {
+    background-color: #FFFACD;
+}
+
+.tryliktas {
+    background-color: #FFCCFF;
+}
+
+.keturioliktas {
+    background-color:#FF7F50;
+}
+
+.penkioliktas {
+    background-color: #F0E68C;
+}
+
+.sesioliktas {
+    background-color: #BC8F8F;
+}
+
+div:hover {
+    transform: scale(0.7);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+div:hover h4 {
+    color: black;
+}
